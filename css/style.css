@@ -30,7 +30,7 @@ nav a {
   font-size: 15px;
 }
 nav a:hover {
-  background-color: #eded76;
+  background-color: #ffff66;
   color: #000000;
   padding: 10px 20px;
   border-radius: 30px;
@@ -59,7 +59,7 @@ a {
   align-items: center;
 }
 .nav-links li a {
-  color: #eded76;
+  color: #ffff66;
   text-decoration: none;
   font-size: 16px;
 }
@@ -230,7 +230,7 @@ a {
   }
   .nav-links {
     position: fixed;
-    background: #eded76;
+    background: #ffff66;
     color: black !important;
     height: 50vh;
     width: 100%;
@@ -778,7 +778,7 @@ a {
   }
 }
 .yellow {
-  color: #eded76;
+  color: #ffff66;
 }
 .btn {
   padding: 10px 30px;
@@ -787,7 +787,7 @@ a {
   margin-top: 10px;
   display: inline-block;
   transition: 0.3s ease-in-out;
-  background: #eded76;
+  background: #ffff66;
   color: black;
   cursor: pointer;
 }

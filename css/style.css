@@ -12,11 +12,11 @@ body {
   display: block;
   font-family: Questrial, sans-serif;
   background: rgb(0, 1, 1);
-  color: white;
+  color: rgb(12, 12, 12);
 }
 nav {
   height: 10vh;
-  background: cyan;
+  background: rgb(0, 0, 0);
   display: flex;
   min-width: 8vh;
   z-index: 10;
@@ -25,23 +25,24 @@ a {
   text-decoration: none;
 }
 nav a {
-  color: white;
+  color: #000000;
   padding: 20px;
   font-size: 15px;
 }
 nav a:hover {
   background-color: #eded76;
-  color: white;
+  color: #000000;
   padding: 10px 20px;
+  border-radius: 30px;
 }
 a {
   text-decoration: none;
 }
 .navved {
   padding: 10px 20px;
-  background-color: #eded76;
+  background-color: #000000;
   border-radius: 30px;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 .logo {
   color: #b8b80a;
@@ -58,9 +59,12 @@ a {
   align-items: center;
 }
 .nav-links li a {
-  color: black;
+  color: #eded76;
   text-decoration: none;
   font-size: 16px;
+}
+.nav-links li a:hover {
+  color: #000000;
 }
 .white {
   color: white;
@@ -82,6 +86,9 @@ a {
 }
 .px28 {
   font-size: 28px;
+}
+.px40 {
+  font-size: 40px;
 }
 @media (min-width: 900px) {
   .hidden-lg {
@@ -212,7 +219,7 @@ a {
   .line {
     width: 30px;
     height: 3px;
-    background: white;
+    background: rgb(17, 4, 4);
     margin: 5px;
   }
   nav {
@@ -223,9 +230,9 @@ a {
   }
   .nav-links {
     position: fixed;
-    background: cyan;
-    color: black;
-    height: 100vh;
+    background: #eded76;
+    color: black !important;
+    height: 50vh;
     width: 100%;
     flex-direction: column;
     clip-path: circle(100px at 90% -10%);
@@ -251,6 +258,7 @@ a {
   }
   .nav-links li a {
     font-size: 25px;
+    color: #000000;
   }
   .nav-links li:nth-child(1) {
     transition: all 0.5s ease 0.2s;
@@ -594,8 +602,11 @@ a {
     font-size: 40px !important;
   }
   .img-container {
-    width: 200px;
+    width: 150px;
     height: auto;
+  }
+  .shift-centre {
+    text-align: center;
   }
 }
 @media (min-width: 790px) and (max-width: 899px) {
@@ -786,8 +797,8 @@ a {
   overflow: hidden;
 }
 .img-container img {
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
 }
 .img-container-2 {
   width: 100%;
@@ -847,4 +858,7 @@ a {
 }
 .obj-skew:hover {
   transform: skew(20deg);
+}
+.shift-centre {
+  text-align: center;
 }

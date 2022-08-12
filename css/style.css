@@ -30,13 +30,16 @@ nav a {
   font-size: 15px;
 }
 nav a:hover {
-  background-color: #ffff66;
+  background-color: #3063bc;
   color: #000000;
   padding: 10px 20px;
   border-radius: 30px;
 }
 a {
   text-decoration: none;
+}
+.color-code-1 {
+  color: #3063bc;
 }
 .navved {
   padding: 10px 20px;
@@ -45,7 +48,7 @@ a {
   color: rgb(0, 0, 0);
 }
 .logo {
-  color: #b8b80a;
+  color: #3063bc;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 20px;
@@ -59,7 +62,7 @@ a {
   align-items: center;
 }
 .nav-links li a {
-  color: #ffff66;
+  color: #3063bc;
   text-decoration: none;
   font-size: 16px;
 }
@@ -230,7 +233,7 @@ a {
   }
   .nav-links {
     position: fixed;
-    background: #ffff66;
+    background: #3063bc;;
     color: black !important;
     height: 50vh;
     width: 100%;
@@ -778,7 +781,7 @@ a {
   }
 }
 .yellow {
-  color: #ffff66;
+  color: #3063bc;
 }
 .btn {
   padding: 10px 30px;
@@ -787,8 +790,9 @@ a {
   margin-top: 10px;
   display: inline-block;
   transition: 0.3s ease-in-out;
-  background: #ffff66;
-  color: black;
+  background: #3063bc;
+  border: #3063bc;
+  color: #fff;
   cursor: pointer;
 }
 .img-container {
@@ -826,6 +830,9 @@ a {
 }
 .bg-dark {
   background: black;
+}
+.bg-grey{
+  background: rgb(162, 158, 158);
 }
 .bg-cyan {
   background: cyan;
